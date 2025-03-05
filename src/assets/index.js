@@ -1,4 +1,7 @@
 import brainwave from "./brainwave.svg";
+import logonova from "./logonova.png";
+import nova from "./nova.png";
+import bg1 from "./bg1.png";
 import check from "./check.svg";
 import brainwaveSymbol from "./brainwave-symbol.svg";
 import brainwaveWhiteSymbol from "./brainwave-symbol-white.svg";
@@ -23,6 +26,7 @@ import background from "./background.jpg";
 
 import curve from "./hero/curve.png";
 import robot from "./hero/robot.jpg";
+import asset1 from "./hero/asset1.png";
 import heroBackground from "./hero/hero-background.jpg";
 
 import curve1 from "./collaboration/curve-1.svg";
@@ -77,6 +81,10 @@ import twitter from "./socials/twitter.svg";
 
 export {
   brainwave,
+  bg1,
+  logonova,
+  asset1,
+  nova,
   check,
   check2,
   loading1,

@@ -34,6 +34,7 @@ import {
   telegram,
   twitter,
   yourlogo,
+  logonova,
 } from "../assets";
 
 export const navigation = [
@@ -78,9 +79,9 @@ export const notificationImages = [notification4, notification3, notification2];
 export const companyLogos = [yourlogo, yourlogo, yourlogo, yourlogo, yourlogo];
 
 export const brainwaveServices = [
-  "Photo generating",
-  "Photo enhance",
-  "Seamless Integration",
+  "Market Analys",
+  "Sentiment Social media",
+  "Recomendation Plan",
 ];
 
 export const brainwaveServicesIcons = [
@@ -94,35 +95,35 @@ export const brainwaveServicesIcons = [
 export const roadmap = [
   {
     id: "0",
-    title: "Voice recognition",
-    text: "Enable the chatbot to understand and respond to voice commands, making it easier for users to interact with the app hands-free.",
-    date: "May 2023",
-    status: "done",
+    title: "Nova Agent Ai",
+    text: "The NovaTrackAI Agent is an AI-powered virtual assistant designed to provide real-time trading insights, portfolio suggestions, and market strategies ",
+    date: "Q1 2025",
+    status: "Upcoming",
     imageUrl: roadmap1,
     colorful: true,
   },
   {
     id: "1",
-    title: "Gamification",
-    text: "Add game-like elements, such as badges or leaderboards, to incentivize users to engage with the chatbot more frequently.",
-    date: "May 2023",
-    status: "progress",
+    title: "Terminal AI",
+    text: "A powerful web-based analytics terminal providing in-depth market analysis, sentiment tracking, and AI recommendations.",
+    date: "Q1 2025",
+    status: "Complete",
     imageUrl: roadmap2,
   },
   {
     id: "2",
-    title: "Chatbot customization",
+    title: "Nova Chat",
     text: "Allow users to customize the chatbot's appearance and behavior, making it more engaging and fun to interact with.",
-    date: "May 2023",
-    status: "done",
+    date: "Q2 2025",
+    status: "Upcoming",
     imageUrl: roadmap3,
   },
   {
     id: "3",
     title: "Integration with APIs",
     text: "Allow the chatbot to access external data sources, such as weather APIs or news APIs, to provide more relevant recommendations.",
-    date: "May 2023",
-    status: "progress",
+    date: "Q3 2025",
+    status: "Upcoming",
     imageUrl: roadmap4,
   },
 ];
@@ -133,16 +134,15 @@ export const collabText =
 export const collabContent = [
   {
     id: "0",
-    title: "Seamless Integration",
-    text: collabText,
+    title: "Market Analysis",
   },
   {
     id: "1",
-    title: "Smart Automation",
+    title: "Sentiment Analytics",
   },
   {
     id: "2",
-    title: "Top-notch Security",
+    title: "Recomendation Plan",
   },
 ];
 
@@ -262,7 +262,7 @@ export const benefits = [
   {
     id: "2",
     title: "Sentiment Analysis",
-    text: "Connect with the AI chatbot from anywhere, on any device, making it more accessible and convenient.",
+    text: "Identify high-potential cryptocurrencies with AI-driven suggestions based on market trends and sentiment analysis.",
     backgroundUrl: "./src/assets/benefits/card-3.svg",
     iconUrl: benefitIcon3,
     imageUrl: benefitImage2,
